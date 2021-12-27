@@ -33,7 +33,7 @@
     "pkgbld"
   ],
   "scripts": {
-    "build": "pkgbld --formats=cjs && node binify.js",
+    "build": "pkgbld --formats=cjs,es && node binify.js",
     "lint": "eslint ./src",
     "semantic-release": "npx semantic-release"
   },
