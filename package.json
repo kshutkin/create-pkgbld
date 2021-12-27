@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "license": "MIT",
-  "name": "pkgbld",
+  "name": "create-pkgbld",
   "author": {
     "name": "Konstantin Shutkin"
   },
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kshutkin/package-build.git"
+    "url": "git+https://github.com/kshutkin/create-pkgbld.git"
   },
   "bugs": {
-    "url": "https://github.com/kshutkin/rollup-extras/issues"
+    "url": "https://github.com/kshutkin/create-pkgbld/issues"
   },
-  "homepage": "https://github.com/kshutkin/package-build/README.md",
+  "homepage": "https://github.com/kshutkin/create-pkgbld/README.md",
   "keywords": [
     "pkgbld"
   ],
