@@ -125,13 +125,33 @@ async function execute() {
             process.exit(-1);
         }
 
-        let homepage = '';
+        const gitInfo: {
+            homepage: string,
+            repository?: {
+                type: string,
+                url: string
+            },
+            bugs?: {
+                url: string
+            }
+        } = {
+            homepage: '',
+            repository: undefined,
+            bugs: undefined
+        };
 
         try {
             const gitCfg = await gitConfig();
             if (gitCfg) {
                 const url: string = gitCfg['remote "origin"'].url;
-                homepage = url.replace('.git', `/${basePackageName}/README.md`);
+                gitInfo.homepage = url.replace('.git', `/${basePackageName}/README.md`);
+                gitInfo.repository = {
+                    type: 'git',
+                    url: `git+${url}`
+                };
+                gitInfo.bugs = {
+                    url: url.replace('.git', '/issues')
+                };
             }
         } catch(e) {
             /* ignore */
@@ -139,7 +159,7 @@ async function execute() {
 
         const pkg = await readPackage(dir);
 
-        Object.assign(pkg.pkg, response, { homepage });
+        Object.assign(pkg.pkg, response, gitInfo);
 
         pkg.readme = `# ${response.name}`;
 
