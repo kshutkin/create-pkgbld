@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.1](https://github.com/kshutkin/create-pkgbld/compare/v1.0.0...v1.0.1) (2021-12-28)
+
+
+### Bug Fixes
+
+* undefined exception when run without arguments ([179e44a](https://github.com/kshutkin/create-pkgbld/commit/179e44a87fdfedb46b49053b2d7e245825188003))
+
 # 1.0.0 (2021-12-27)
 
 
