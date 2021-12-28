@@ -60,7 +60,7 @@ async function execute() {
     
     await emitter.clone(dir);
 
-    const basePackageName = path.basename(packageName) || path.basename(process.cwd());
+    const basePackageName = (packageName && path.basename(packageName)) || path.basename(process.cwd());
 
     if (chooseAction.action === 'root') {
         const response = await prompts([{
