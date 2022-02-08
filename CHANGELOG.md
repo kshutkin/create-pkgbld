@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.2](https://github.com/kshutkin/create-pkgbld/compare/v1.0.1...v1.0.2) (2022-02-08)
+
+
+### Bug Fixes
+
+* do not cache ([ced7de5](https://github.com/kshutkin/create-pkgbld/commit/ced7de5f3e092c4a91afb92368364387725738c9))
+
 ## [1.0.1](https://github.com/kshutkin/create-pkgbld/compare/v1.0.0...v1.0.1) (2021-12-28)
 
 
