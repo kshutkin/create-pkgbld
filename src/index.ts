@@ -49,7 +49,7 @@ async function execute() {
     const template = chooseAction.action === 'root' ? 'kshutkin/monorepo-root' : 'kshutkin/monorepo-package';
 
     const emitter = degit(template, {
-        cache: true,
+        cache: false,
         force: true,
         verbose: true,
     });
