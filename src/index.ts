@@ -13,6 +13,9 @@ type PkgInfo = {
 };
 
 async function execute() {
+    const myPkg = await readPackage(path.resolve(process.cwd(), '..'));
+
+    console.log('create-pkgbld ' + myPkg.pkg.version);
 
     const parsedArgs = minimist(process.argv.slice(2));
 
