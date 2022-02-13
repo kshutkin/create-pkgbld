@@ -1,5 +1,12 @@
 Changelog
 
+# [1.1.0](https://github.com/kshutkin/create-pkgbld/compare/v1.0.2...v1.1.0) (2022-02-13)
+
+
+### Features
+
+* display version on start ([c7c7051](https://github.com/kshutkin/create-pkgbld/commit/c7c7051bf4e4fe5f037891505de2addddf3b69ac))
+
 ## [1.0.2](https://github.com/kshutkin/create-pkgbld/compare/v1.0.1...v1.0.2) (2022-02-08)
 
 
