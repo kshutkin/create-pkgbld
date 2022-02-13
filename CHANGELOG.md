@@ -1,5 +1,12 @@
 Changelog
 
+## [1.1.1](https://github.com/kshutkin/create-pkgbld/compare/v1.1.0...v1.1.1) (2022-02-13)
+
+
+### Bug Fixes
+
+* use dirname ([6a5d8bb](https://github.com/kshutkin/create-pkgbld/commit/6a5d8bb23580f1639671e92b922b6df744299dc9))
+
 # [1.1.0](https://github.com/kshutkin/create-pkgbld/compare/v1.0.2...v1.1.0) (2022-02-13)
 
 
