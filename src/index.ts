@@ -147,7 +147,7 @@ async function execute() {
             const gitCfg = await gitConfig();
             if (gitCfg) {
                 const url: string = gitCfg['remote "origin"'].url;
-                gitInfo.homepage = url.replace('.git', `/${basePackageName}/README.md`);
+                gitInfo.homepage = url.replace('.git', `/blob/main/${basePackageName}/README.md`);
                 gitInfo.repository = {
                     type: 'git',
                     url: `git+${url}`
