@@ -1,5 +1,12 @@
 Changelog
 
+## [1.1.3](https://github.com/kshutkin/create-pkgbld/compare/v1.1.2...v1.1.3) (2022-03-23)
+
+
+### Bug Fixes
+
+* readme link ([6009ea8](https://github.com/kshutkin/create-pkgbld/commit/6009ea82fe06af9d939c5dd4747f08a94955b3d4))
+
 ## [1.1.2](https://github.com/kshutkin/create-pkgbld/compare/v1.1.1...v1.1.2) (2022-03-23)
 
 
