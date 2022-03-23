@@ -1,5 +1,12 @@
 Changelog
 
+## [1.1.2](https://github.com/kshutkin/create-pkgbld/compare/v1.1.1...v1.1.2) (2022-03-23)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([#2](https://github.com/kshutkin/create-pkgbld/issues/2)) ([5d72496](https://github.com/kshutkin/create-pkgbld/commit/5d724967f1e1a4b33d24d197b99e15a7a244e301))
+
 ## [1.1.1](https://github.com/kshutkin/create-pkgbld/compare/v1.1.0...v1.1.1) (2022-02-13)
 
 
